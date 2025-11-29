@@ -72,24 +72,9 @@ The tool is intended for interviewers: they will upload or paste a resume, and t
 
 ## 🎬 Quick Demo
 
-### Step 1: Input Resume
-Choose one of two methods:
-- **Upload File**: Drag & drop or click to upload a PDF, DOCX, or TXT file
-- **Paste Text**: Copy and paste resume content directly
+![Demo Recording](public/final_recording.gif)
 
-### Step 2: Generate Questions
-Click the "Generate Questions" button and wait for AI analysis (5-15 seconds)
 
-### Step 3: Review & Export
-- Browse questions organized by category
-- Use search to find specific questions
-- Filter by category
-- Copy all questions or download as PDF
-
-### Visual Flow
-```
-[Upload/Paste Resume] → [AI Analysis] → [Categorized Questions] → [Search/Filter] → [Copy/Download]
-```
 
 ---
 
@@ -186,11 +171,7 @@ Before you begin, ensure you have the following installed:
    - May require human review and refinement
    - Quality depends on resume clarity and detail level
 
-3. **File Processing**
-   - PDF files: Extracts text only (no images, tables, or complex layouts)
-   - DOCX files: Extracts plain text (formatting may be lost)
-   - TXT files: Direct text extraction
-   - Maximum file size: 10MB
+
 
 4. **API Usage**
    - Assumes Groq API is accessible and within rate limits
@@ -210,17 +191,7 @@ Before you begin, ensure you have the following installed:
    - Requires internet connection
    - API key must be valid and active
 
-3. **Browser Compatibility**
-   - Requires modern browser with JavaScript enabled
-   - File upload uses HTML5 File API
-   - PDF.js requires browser support for Web Workers
-
-4. **Data Privacy**
-   - Resumes are sent to Groq API for processing
-   - No data is stored locally or on server
-   - Users should be aware of data transmission
-
-7. **Language Support**
+3. **Language Support**
    - Optimized for English resumes
    - May work with other languages but quality may vary
 
@@ -242,4 +213,3 @@ I enjoyed working on this project and learned so many things along the way. Than
 
 ---
 
-# Intelligent-Interview-Question-Generator
